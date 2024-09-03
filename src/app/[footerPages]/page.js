@@ -1,29 +1,38 @@
+// app/contact/page.tsx (or .js)
+
 import ContactUs from "./fetchFooter";
 
+// Fetch data at build time
+export async function generateStaticProps() {
+  const posts = await fetchFooterData();
+  return { props: { posts } };
+}
 
+// Function to fetch footer data
 const fetchFooterData = async () => {
-    let posts = [];
-    try {
-      const response = await fetch(
-        "http://ec2-3-18-62-57.us-east-2.compute.amazonaws.com/admin/api/v1/footer-pages"
-      );
-      if (!response.ok) {
-        throw new Error("Network response was not ok");
-      }
-      posts = await response.json();
-    } catch (error) {
-      console.error("Error fetching data:", error);
+  let posts = [];
+  try {
+    const response = await fetch(
+      "http://ec2-3-18-62-57.us-east-2.compute.amazonaws.com/admin/api/v1/footer-pages"
+    );
+    if (!response.ok) {
+      throw new Error("Network response was not ok");
     }
-    return posts;
+    posts = await response.json();
+  } catch (error) {
+    console.error("Error fetching data:", error);
+  }
+  return posts;
 };
 
+// Page Component
 const ContactPage = async () => {
-    const posts = await fetchFooterData();
-    return (
-        <div>
-            <ContactUs posts={posts} />
-        </div>
-    );
+  const posts = await fetchFooterData();
+  return (
+    <div>
+      <ContactUs posts={posts} />
+    </div>
+  );
 };
 
 export default ContactPage;
