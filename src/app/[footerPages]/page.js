@@ -1,6 +1,6 @@
 // app/[footerPages]/page.tsx
 
-import ContactUs from "../fetchFooter"; // Adjust the path as needed
+import ContactUs from "./fetchFooter"; // Adjust the path as needed
 
 // Fetch data for static paths
 export async function generateStaticParams() {
