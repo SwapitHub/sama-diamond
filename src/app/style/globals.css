@@ -1,0 +1,3865 @@
+
+.search-inner h5 {
+  text-transform: capitalize;
+  color: #333;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+ul.search-list li a {
+  font-size: 14px;
+  padding: 3px 0px;
+  display: inline-block;
+}
+.search-top-content {
+  margin-bottom: 10px;
+}
+.search-product-list h5 {
+  margin-bottom: 15px;
+}
+.search-product-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5px 0px;
+}
+.search-product-list .search-product-list-left-img {
+  max-width: 50px;
+}
+.search-product-list .search-product-list-left-img {
+  max-width: 60px;
+  padding-right: 10px;
+}
+.search-product-list-main {
+  padding-top: 10px;
+}
+.search-inner a:hover {
+  color: #310f4c;
+}
+.ss__result__details__title a {
+  font-size: 14px;
+  text-transform: capitalize;
+}
+.caption-price.usd {
+  font-size: 14px;
+  padding: 5px 0px;
+}
+.search-inner {
+  position: absolute;
+  width: calc(100% - 15rem);
+  z-index: 1111;
+  top: 265px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+.search-result-main .search-inner .search-top-content {
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 0 7px #0000001a;
+  border-radius: 5px;
+  max-width: 50%;
+}
+.searching-bar-field input {
+  width: 100% !important;
+  height: 50px;
+  padding: 3px 110px 3px 20px;
+  display: inline-block;
+  font-size: 13px;
+  font-family: Montserrat;
+  border: 0;
+  border-radius: 5px;
+}
+.search-filter-sort-parent {
+  padding: 30px 0px;
+}
+.searching-bar-field {
+  position: relative;
+}
+.searching-bar-field button {
+  position: absolute;
+  right: 3px;
+  top: 3px;
+  font-size: 14px;
+  text-transform: capitalize;
+  padding: 13px 24px;
+  line-height: normal;
+  border: 0;
+  background-color: #310F4C;
+  color: #fff;
+  border-radius: 5px;
+  font-family: Montserrat;
+  font-weight: 600;
+}
+
+.dropdown-content.ss__options {
+  display: grid;
+  flex-wrap: wrap;
+  position: absolute;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 30px;
+  row-gap: 7px;
+  display: none;
+  padding-top: 30px;
+  top: 0;  min-width: 430px;
+}
+.search-sort-category .search-on-hover:hover .dropdown-content.ss__options {
+  display: grid;
+  background: white;
+  z-index: 1111;
+  padding: 10px;
+  top: 35px;
+}
+
+.search-sort-filter {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  margin-top: 30px;
+}
+.search-sort-category {
+  padding-right: 40px;
+}
+.filter-ss-column input {
+  width: 18px;
+  height: 18px;
+  border-radius: 0 !important;
+  margin-right: 10px;
+}
+.filter-ss-column {
+  display: flex;
+  align-items: center;
+}
+.filter-ss-column img {
+  width: 30px;
+  height: auto;
+  margin-right: 8px;
+}
+.filter-ss-column label {
+  cursor: pointer;
+}
+
+.filter-ss-column label:hover {
+  color: #310f4c;
+}
+.filter-ss-column.selected {
+  text-decoration: underline;
+}
+.applying-breadCrum {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.diamonds-table .breadCram a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #310f4c;
+  border-radius: 15px;
+  padding: 0px 5px;
+  margin: 2px 5px;
+}
+.bredCramStyleFilter {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 9px;
+  max-width: 60%;
+}
+.gemstone-main .breadCram {
+  margin: 0px 8px;
+}
+/* ============ */
+img.clicked {
+  border: 2px solid #310f4c !important;
+  border-radius: 100%;
+}
+a.nature-active {
+  border-radius: 11px;
+  border: 4.4px solid #734e90;
+  background: #fff;
+  color: #734e90;
+  font-size: 15.4px;
+  font-weight: 800;
+}
+.choose-diamonds .Diamond-Original > a:hover {
+  border: 4.4px solid #734e90;
+}
+.header-icons .search-icon > input.search-open {
+  width: 200px;
+  transition: all 0.3s ease-in-out;
+  border: 1px solid;
+  padding: 5px;
+}
+
+.search-icon .search-inner {
+  width: auto;
+  top: 40px;
+  min-width: 248px;
+  left: auto;
+  height: 400px;
+  overflow-y: auto;
+  background-color: #fff;
+  box-shadow: 0 0 7px #0000001a;
+  padding: 20px;
+  right: inherit;
+  margin-left: -50px;
+}
+
+.search-icon .search-inner .search-product-list-right-description {
+  width: 60%;
+}
+.search-icon .search-inner::-webkit-scrollbar {
+  width: 5px;
+  background-color: #310f4c;
+  height: 200px;
+}
+.data-base-cart .shoping-card.wishLIst-cart {
+  width: 100%;
+  font-family: m;
+}
+.wisher-imager {
+  cursor: pointer;
+  overflow: hidden;
+}
+.empty-wish-list {
+  font-size: 20px;
+  text-align: center;
+  position: relative;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Diamond-Original-main span.unbold , .color-clarity-details .unbold{
+  display: none;
+}
+.Diamond-Original-main span.unbold.active , .color-clarity-details .unbold.active{
+  display: inline-block;
+}
+.choose-diamonds .prodcut-data:hover {
+  background-color: #310f4c;
+  cursor: pointer;
+}
+
+.choose-diamonds .prodcut-data:hover li.heading-data-categery p {
+  color: white;
+}
+.ring-size {
+  width: 100%;
+}
+
+.order-box.Shipping-Info {
+  margin-top: 20px;
+}
+.ourPrivacy-Policy {
+  padding-top: 15px;
+}
+.address-details {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 15px 0;
+}
+.order-box.place-order-down {
+  margin-top: 20px;
+}
+/* / 01-05-2024 / */
+/* =============cart page =========*/
+.detail-price-main {
+	width: 100%;
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 15px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+}
+.detail-price-main .detail-col {
+	width: calc(100% / 2 - 8px);
+	border-radius: 5px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center; background-color: #fff; padding: 20px 20px;
+}
+.detail-ring-image img {
+  width: 58%;
+  margin: 0 auto;
+  display: block;
+}
+
+.detail-col.white {
+  box-sizing: border-box;
+}
+.detail-ring-image.ring img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+
+.detail-content-main > h4 {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.detail-content-main {
+  width: 100%;
+}
+.detail-content-list {
+  margin-top: 20px;
+  display: block;
+}
+.detail-content-list ul {
+	list-style: none;
+}
+.detail-content-list ul li {
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  color: #000;
+  line-height: normal;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+.detail-content-list ul li span {
+  font-weight: 700;
+}
+.detail-content-list ul li:last-child {
+  margin-bottom: 0;
+}
+.protect-purchase-main {
+  padding: 20px 20px;
+  background-color: #fff;
+  width: 100%;
+  border-radius: 5px;
+}
+
+
+.protect-content {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-end;
+}
+.protect-content .pro-left {
+	width: 60%;
+}
+.protect-content .pro-right {
+	width: 40%;
+	text-align: right;
+}
+.protect-content h4, .choose-your-impact-main h4 {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  color: #000;
+  margin-bottom: 5px;
+}
+.protect-content p ,.choose-your-impact-main p{
+	font-size: 13px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 27px;
+	color: #000;
+}
+.protect-content a.learn {
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 27px;
+	color: #000;
+	text-decoration: none;
+}
+
+.protect-check-list ul {
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 21px;
+	gap: 10px;
+}
+.protect-check-list ul li {
+  width: calc(100% / 4 - 8px);
+  text-align: center;
+  box-sizing: border-box;
+}
+.protect-check-list ul li label {
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  color: #000;
+  border-radius: 10px;
+  background: #F6F6F6;
+  display: flex;
+  width: 100%;
+  padding: 10px 5px;
+  min-height: 70px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  border: 3px solid transparent;
+  height: 100%;
+}
+.protect-check-list ul li label b {
+  display: block;
+  margin-bottom: 0;
+}
+.protect-check-list ul li input[type="checkbox"] {
+  display: none;
+}
+.protect-check-list ul li input[type="checkbox"]:checked + label {
+  border-color: #734E90;
+  color: #734E90;
+}
+/* ===============  end*/
+.success-order {
+  display: flex;
+  justify-content: space-between;
+}
+
+.success-order .success-order-left {
+  max-width: 60%;
+}
+
+.success-order .success-order-right {
+  max-width: 40%;
+}
+
+.success-order .success-order-right a {
+  text-decoration: underline;
+}
+
+.success-order .shipping-address-payment {
+  display: flex;
+  justify-content: space-between;
+}
+
+.success-order h5.orderId-confirm {
+  margin-bottom: 15px;
+}
+
+.success-order hr {
+  margin: 40px 0px;
+}
+
+.success-order .shipping-address-left h4,
+.success-order .shipping-address-right h4 {
+  margin-bottom: 10px;
+}
+.success-order h4.billing-addres-order {
+  margin-top: 12px;
+}
+.order-confirmed > h3 {
+  margin-bottom: 15px;
+}
+
+h3.order-details-heading {
+  margin-bottom: 12px;
+}
+
+.sign-up-email-order .emai-news-order {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #f8f8f8;
+}
+
+.sign-up-email-order .brilliant-news {
+  width: 45%;
+}
+
+.sign-up-email-order .reset-forms.wishlist-acct {
+  width: 50%;
+}
+
+.sign-up-email-order .wishlist-acct span.input-group-btn {
+  position: absolute;
+  right: 0;
+  top: 0px;
+}
+
+.sign-up-email-order .wishlist-acct span.input-group-btn {
+  position: absolute;
+  right: 0;
+  top: 0px;
+}
+.success-order .refer-friend-box {
+  width: 50%;
+  margin-top: 26px;
+  border: 1px solid rgb(179, 178, 175);
+  padding: 15px;
+}
+
+.refer-friend-box p.refer-friend-para {
+  margin: 13px 0px;
+}
+
+.success-order .refer-friend-box a {
+  padding: 0.65em 5.3em 0.45em;
+  border: 1px solid #2c2c2c;
+  margin: 10px;
+}
+
+.success-order .refer-friend-box a:hover {
+  border: 1px solid #2c2c2c;
+  background-color: #2c2c2c;
+  color: white;
+}
+.success-page-order .shoping-card-main-wrap .shoping-card {
+  width: 100%;
+}
+.payment-form form > div > label {
+  padding-right: 25px;
+}
+.payment-form form .expiration > label {
+  padding-right: 53px !important;
+}
+.payment-form form .cvv > label {
+  padding-right: 94px !important;
+}
+.payment-form .expiration {
+  margin: 20px 0;
+}
+.payment-form .Return-to-Shipping {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 0px;
+}
+.payment-form form > div > input {
+  height: 30px;
+  width: 40%;
+}
+.payment-form form select#selectCity {
+  width: 132px;
+  height: 30px;
+  margin-right: 12px;
+}
+.payment-form .continue-payment button, .payment-form .continue-payment a {
+  padding: 10px 16px;
+  font-size: 14px;
+}
+.payment-form .checkout-right {
+  background: #fff;
+}
+/* / 02-05-2024 / */
+
+.orders-history-dashboard .orders-heading-history {
+  font-weight: normal;
+  font-size: 18px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.orders-history-dashboard table.orders-history-table {
+  max-width: 100%;
+  width: 70%;
+  margin-bottom: 25px;
+  min-height: 175px;
+}
+
+.orders-history-dashboard table.orders-history-table tr {
+  display: flex;
+  justify-content: space-between;
+  max-width: 100%;
+  cursor: pointer;
+  margin-bottom: 5px;
+}
+
+.orders-history-dashboard table.orders-history-table tr:first-child {
+  border-bottom: 1px solid;
+  margin-bottom: 10px;
+}
+
+.orders-history-dashboard table.orders-history-table tr th {
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+
+table.orders-history-table tr td {
+  font-size: 14px;
+  line-height: 25px;
+  padding: 4px 10px;
+}
+.order-details-description:last-child {
+  margin-bottom: 0;
+}
+.orders-history-dashboard p {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.order-details-description {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 15px;
+}
+
+.order-details-column {
+  width: 14%;
+  padding-right: 15px;
+}
+
+.right-des-order {
+  width: calc(86%);
+}
+
+.order-items-right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 10px;
+  font-size: 14px;
+}
+.order-items-right > div {
+  flex: 1 0 auto;
+  width: 25%;
+}
+.shipping-inner {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+h4.heading,
+h2.heading {
+  border-bottom: 1px solid #e1e1e1;
+  padding-bottom: 10px;
+}
+
+/* =========success page */
+.success-order .diamond-ring-img-text {
+  width: 20%;
+}
+.success-order .checkout-name-description .checkout-left-des,
+.success-order .product-info-inner {
+  width: 35%;
+}
+.success-order .checkout-right-price.diamond-price,
+.success-order .product-ring-price {
+  width: 19%;
+}
+.success-order .data-base-cart .gemstone-cart > div {
+  width: 24% !important;
+}
+.success-order .single-gemstone, .success-order .diamond-text-img{
+  width: 10%;
+}
+.success-order .gemstone-price {
+  width: 17%;
+}
+.success-order .gemstone-name {
+  width: 40%;
+}
+.success-order .checkout-name-description {
+  border: none;
+}
+.success-order .shop-card-inner.diamond-ring,
+.success-order .ring-gemstone-description.shop-card-inner.gemstone {
+  border-top: 1px solid #eaeaea;
+  padding: 25px 0;
+}
+.product-info.gemstone-only .single-gemstone {
+  padding-bottom: 0px;
+}
+.product-info.diamond-only .checkout-name-description {
+  padding: 25px 0;
+}
+
+ul.pagination.justify-content-center {
+  width: 75%;
+  margin-bottom: 40px;
+}
+.pagination .page-link {
+  color: #310f4c !important;
+}
+.pagination .active > .page-link {
+  background-color: #734e90 !important;
+  border-color: #734e90 !important;
+  color: #fff !important;
+}
+.header-top.active .header-contact-us,
+.header-top.active .header-icons {
+  display: none;
+}
+.header-top.active .header-logo {
+  margin: 0 auto;
+}
+
+.header-top.success-active .header-icons .bell-icon,
+.header-top.success-active .header-icons .bag-icon,
+.header-top.success-active .header-icons .header-heart-icon {
+  display: none;
+}
+.header-top.success-active .header-icons {
+  width: 26%;
+}
+
+.ShopDiamondShape-img-text.diamond .gemstone-slider-main {
+  width: 50%;
+  text-align: center;
+}
+.Toastify__progress-bar--info {
+  background: #734e90 !important;
+}
+.blur {
+  filter: blur(5px); /* Change the blur amount as needed */
+}
+video::poster {
+  width: 30px !important;
+  max-width: 30px !important;
+  height: 30px !important;
+}
+.details-videos span.lazy-load-image-background {
+  position: absolute;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  min-height: 400px;
+  /* z-index: -1; */
+}
+.all-img1.common-img.defaultImg > span:nth-child(3) {
+  position: absolute;
+  width: 100px !important;
+}
+span.common-stand-img-1,
+span.common-stand-img.white-stand-img {
+  position: relative;
+  z-index: 1;
+}
+.all-metal-color a.style-active-common.color {
+  display: block;
+}
+.all-metal-color .color {
+  display: none;
+}
+/* ============banner new css start */
+
+.common-row.banner .banner-img-slider {
+  margin: 0 auto;
+  position: relative;
+}
+section.banner-section .container {
+  background: #e8e8e8;
+}
+
+.common-row.banner .banner-ring-text-btn-1 {
+  position: absolute;
+  z-index: 1;
+  text-align: center;
+  top: 70px;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+}
+.banner-ring-text-btn > h3, .banner-ring-text-btn > h1 {
+  color: #310f4c;
+  font-family: "Sackers Gothic Light AT";
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: 138%;
+text-transform: capitalize;
+}
+.banner-img-slider > img {
+  margin: 0 auto;
+  max-width: 550px;    
+   max-height: 200px;
+}
+.banner-ring-text-btn > span {
+  color: #310f4c;
+  font-family: Montserrat;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 138%;
+  padding: 18px 0 25px;
+}
+.common-row.banner .slick-prev {
+  left: 15px;
+  background: #310f4c;
+  padding: 15px;
+  border-radius: 3px;
+}
+.common-row.banner .slick-next {
+  right: 20px;
+  background: #310f4c;
+  padding: 15px;
+  border-radius: 3px;
+}
+.common-row.banner button.slick-arrow.slick-next:after,
+.common-row.banner button.slick-arrow.slick-prev:after {
+  border-top: 2px solid #fff;
+  border-right: 2px solid #fff;
+}
+.common-row.banner button.slick-arrow.slick-next:after {
+  right: 12px;
+  top: 9px;
+}
+.common-row.banner button.slick-arrow.slick-prev:after {
+  right: 7px;
+  top: 9px;
+}
+.common-row.banner .slick-dots {
+  bottom: 18px;
+}
+.common-row.banner .slick-dots li button:before {
+  font-size: 13px;
+  color: #310f4c;
+}
+.banner-img-slider {
+  display: flex !important;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: inherit;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 70px;
+}
+.common-row.banner .banner-ring-text-btn {
+  margin-bottom: 50px;
+}
+.see-products-img img {
+  width: 100% !important;
+  height: 240px;
+  max-height: 240px;
+  object-fit: cover;
+  object-position: bottom;
+}
+/* ============banner new css end */
+/*============ see-products  start====*/
+section.see-products-main .common-row.see-products {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 7px;
+  flex-wrap: wrap;
+}
+
+section.see-products-main .see-products-img > img {
+  min-height: 295px;
+}
+
+section.see-products-main .see-products-img {
+  width: 24.5%;
+  position: relative;
+}
+.See-Products {
+  position: absolute;
+  bottom: 25px;
+  color: #fff;
+  font-family: "Sackers Gothic Light AT";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 140%;
+  left: 25px;
+}
+
+.See-Products > span:nth-child(2) {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 140%;
+}
+/*============ see-products  start====*/
+
+/*============ EngagementBridal  start====*/
+
+.EngagementBridal-img,
+.EngagementBridal-text {
+  width: 47.8%;
+}
+.EngagementBridal-2-img > span {
+  display: block;
+  color: #000;
+  font-family: Inter;
+  font-size: 17px;
+  line-height: 166%;
+  padding: 36px 0;
+}
+.EngagementBridal-2-img {
+  width: 33%;
+  text-align: center;
+}
+.EngagementBridal-2-img > p {
+  color: #000;
+  font-size: 17px;
+  font-weight: 200;
+  line-height: 166%;
+}
+.EngagementBridal-2-img.text > a {
+  width: 100%;
+  font-weight: 400;
+}
+.EngagementBridal-2-img.text {
+  padding: 50px 50px 0;
+}
+.EngagementBridal-text a.button {
+  background: transparent;
+  color: #1b1818;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 140%;
+  border-color: #000;
+  border-radius: 5px;
+  border: 1px solid #000;
+}
+.flex.common-row.EngagementBridal {
+  background: #fff;
+}
+.EngagementBridal-text {
+  padding: 0 65px 0 0;
+}
+.EngagementBridal-text > p {
+  padding: 35px 0 40px;
+}
+.EngagementBridal-img > img {
+  display: block;
+}
+/*============ EngagementBridal  start====*/
+
+
+.AnniversaryRing-main .ring-grid-sec .grid-wrapper-bar {
+  width: calc(50% - 10px);
+  text-align: center;
+}
+.AnniversaryRing-main .grid-wrapper-bar .img-bar img {
+  width: 100%;
+  max-width: 100%;
+  min-height: auto;
+  max-height: 100%;
+}
+.AnniversaryRing-main .grid-wrapper-bar a {
+  display: inline-block;
+  padding: 12px 48px;
+  border-radius: 5px;
+  border: 1px solid #000;
+  color: #1b1818;
+}
+/* all breda crumb style start */
+.ring-choose-setting.flex {
+  justify-content: center;
+  column-gap: 18px;
+  border: 1px solid #e4e4e4;
+  border-radius: 50px;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+  margin: 40px auto 40px;
+}
+
+.one-choose-setting:first-child,
+.chooseDiamond-active .one-choose-setting:nth-child(3), .diamond-bread-crumb-active .one-choose-setting:nth-child(3),
+.final-ring .one-choose-setting:nth-child(5) {
+  background: #734e90;
+  border-radius: 50px;
+  font-weight: 700;
+}
+  .chooseDiamond-active .one-choose-setting:first-child, .final-ring .one-choose-setting:first-child , .diamond-bread-crumb-active .one-choose-setting:first-child{
+  background: transparent;
+}
+.one-choose-setting > span , .chooseDiamond-active .one-choose-setting:first-child > a ,.final-ring .one-choose-setting:first-child > a, .diamond-bread-crumb-active .one-choose-setting:first-child > a{
+  color: #310f4c;
+}
+.chooseDiamond-active .one-choose-setting:nth-child(3) > a,
+.final-ring .one-choose-setting:nth-child(5) > span , .diamond-bread-crumb-active .one-choose-setting:nth-child(3) > a{
+  color: #fff;
+}
+.one-choose-setting:last-child {
+  padding: 20px 30px 20px 30px;
+}
+.one-choose-setting:first-child > a, .diamond-bread-crumb-active .one-choose-setting:nth-child(3) > a, .chooseDiamond-active .one-choose-setting:nth-child(3) > a {
+  color: #fff;
+  padding: 20px 30px 20px 30px; 
+     display: inline-block; font-weight: 700;
+} 
+
+.one-choose-setting > a, .one-choose-setting > span{
+  color: #310f4c;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+}
+/* all breda crumb style end */
+.ring-choose-setting .svg-icn {
+  display: inline-flex;
+}
+.Anniversary.Rings .column-width, .ShopDiamondCotegory .column-width{
+  width: calc(100% / 4 - 6px) !important;
+  padding: 0 !important;
+}
+.menRings .container {
+  background: #fff;
+}
+.menRings-img,
+.menRings-text {
+  width: calc(100% / 2 - 30px);
+  padding: 0;
+}
+
+/* ==============ser */
+.Bridal-Jewellery a.button {
+  background: transparent;
+  color: #1b1818;
+}
+
+.details-page .Diamond-Original > a {
+  width: auto;
+  padding: 10px 27px;
+  height: auto;
+  font-size: 12px;
+  border-radius: 20px;
+  border: 2px solid #e8e8e8;
+}
+.details-page .Diamond-Original > a:hover {
+  border: 2px solid #734e90;
+}
+/* =======================sahil sir============== */
+
+
+.header-contact-us a {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: #310F4C;
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.header nav.nav {
+  margin-top: 40px;
+  background-color: #f6f6f6;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  position: relative;
+}
+.header nav.nav:before {
+  content: "";  
+  width: 100%;
+  background-color: #f6f6f6;
+  position: absolute;
+  left: -50vw;
+  right: -50vw;
+  height: 100%;
+  top: 0;
+  z-index: 1;
+}
+.celebrate-inner {
+	height: 470px;
+	background-repeat: no-repeat;
+	background-size: cover;
+  background-position: bottom;
+	background-color: #dfdee0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-left: 50px;
+}
+.celebrate-content {
+  max-width: 502px;
+}
+.celebrate-content p {
+	font-size: 13px;
+	font-style: normal;
+	font-weight: 400;
+	color: #000;
+	display: block;
+	max-width: 380px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+	line-height: 24.4px;
+}
+.celebrate-content a.see-btn {
+  border: 1px solid #000;
+  padding: 12px 20px;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  color: #000;
+  display: inline-block;
+  border-radius: 5px;
+}
+
+/****/
+
+
+.love-right-content h4 {
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 700;
+  color: #FFF;
+  line-height: 22.4px;
+  font-family: Montserrat;
+}
+.love-right-content h3 {
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: #FFF;
+  margin-top: 10px;
+}
+.love-right-content p {
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  color: #FFF;
+  line-height: 24.4px;
+  margin-top: 10px;
+  margin-bottom: 18px;
+}
+.love-right-content a.explore {
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  color: #FFF;
+  line-height: 22.4px;
+  padding: 12px 24px;
+  border-radius: 5px;
+  border: 1px solid #FFF;
+  display: inline-block;
+}
+.love-right-content a.explore:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+
+.loves-inner {
+  height: auto;
+  background-color: #1F2020;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 68px 50px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.loves-inner::before {
+	content: "";
+	background-color: #1F2020;
+	width: 41%;
+	position: absolute;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	z-index: -1;
+	filter: blur(50px);
+}
+
+.loves-inner .love-left-image {
+  width: 50%; 
+  text-align: center;
+}
+
+.love-right-content {
+  text-align: center;
+  width: 50%;
+}
+
+.love-left-image img {
+  width: 100%;
+  max-width: 300px;
+}
+
+.common-row.banner .slick-dots li button::before {
+  display: none;
+}
+
+.common-row.banner .slick-dots li button {
+  width: 13px;
+  height: 13px;
+  background: rgba(49, 15, 76, 0.20);
+  padding: 0;
+  border-radius: 50%;
+}
+.common-row.banner .slick-dots li {
+  margin: 6px 6px;
+  width: auto;
+  height: auto;
+}
+.common-row.banner .slick-dots li.slick-active button {
+  background: #310F4C;
+}
+.ShopDiamondShape {
+  padding-top: 45px;
+  padding-bottom: 45px;
+}
+.ShopDiamondShape-img-text .own-ring-white img {
+  width: 100%;
+  max-width: 60px;
+}
+.own-ring-white {
+  border-radius: 4.493px;
+  background: #FFF;
+  width: 100%;
+  height: 70px;
+  border: 0px solid #f6f6f6;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.ShopDiamondShape .ShopDiamondShape-img-text {
+  width: calc(100% / 12 - 6px);
+  padding: 0;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.home-page > .ShopDiamondShape {
+  background-color: #fff;
+}
+.ShopDiamondShape .ShopDiamondShape-img-text:not(:last-child) {
+  border-right: 7px solid #fff;
+}
+.ShopDiamondShape div.flex {
+  margin-top: 0px;
+  justify-content: center;
+  gap: 15px;
+}
+.ShopDiamondShape .ShopDiamondShape-img-text span {
+  padding-top: 0;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  color: #000;
+  margin-top: 15px;
+  display: block; white-space: normal;
+}
+section.see-products-main .common-row.see-products {
+	column-gap: 0;
+}
+section.see-products-main .see-products-img {
+  width: calc(100% / 4);
+  position: relative;
+}
+section.see-products-main .see-products-img:not(:last-child) {
+  border-right: 5px solid transparent;
+}
+section.see-products-main .see-products-img > img {
+  min-height: 240px;
+  object-fit: cover;
+  width: 100%;
+  height: 240px;
+}
+.common-row.see-products .See-Products {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 25px;
+}
+.common-row.see-products .See-Products .heading {
+  font-size: 18.909px;
+  font-style: normal;
+  font-weight: 400;
+  color: #FFF;
+  border-bottom: 0;
+  padding: 0;
+}
+.common-row.see-products .See-Products .see-more {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  color: #FFF;
+  font-family: Montserrat;
+}
+
+.ShopCategory.ShopDiamondCotegory div.flex {
+  margin-top: 50px;
+}
+.ShopCategory.ShopDiamondCotegory {
+	padding-top: 40px;
+	padding-bottom: 60px;
+}
+
+.ShopDiamondCotegory .column-width h4 {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  color: #000;
+  font-family: Montserrat;
+  padding-top: 15px;
+}
+.ShopDiamondCotegory .column-width .ShopCategory-img {
+  border-radius: 5px;
+  background: #FFF;
+  height: 234px;
+  padding: 0 !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ShopCategory.ShopDiamondCotegory div.flex {
+  margin-top: 30px;
+  gap: 7px;
+  justify-content: center; align-items: flex-start;
+}
+.ShopCategory.ShopDiamondCotegory div.flex .column-width {
+  width: calc(100% / 5 - 6px);
+}
+
+
+
+.menRings.Bridal-Jewellery .menRings-main {
+  justify-content: inherit;
+  align-items: inherit;
+}
+.menRings.Bridal-Jewellery .menRings-main .menRings-text {
+  width: 53%;
+  padding: 83px 74px 69px 52px; border-radius: 0px 5px 5px 0;
+  background-color:#fff;
+  display: flex;
+flex-direction: column;
+justify-content: center;
+} 
+.menRings.Bridal-Jewellery .menRings-main .menRings-img {
+  width: 47%;
+}
+.menRings.Bridal-Jewellery .menRings-main .menRings-img img {
+  border-radius: 5px 0px 0px 5px;
+  max-height: 470px;
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+  object-position: center;
+  
+}
+
+.menRings.Bridal-Jewellery .menRings-main .menRings-text h2 {
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400; 
+  color: #000; line-height: normal;
+}
+.menRings.Bridal-Jewellery .menRings-main .menRings-text p {
+  font-size: 13px !important;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  padding: 0;
+  margin-top: 18px;
+  margin-bottom: 25px;
+}
+.menRings.Bridal-Jewellery .menRings-main .menRings-text a.button {
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  color: #1B1818;
+  padding: 12px 20px;
+  border-radius: 5px;
+  border: 1px solid #000;
+}
+.menRings.Bridal-Jewellery .menRings-main .menRings-text a.button:hover,
+.ShopCategory.ShopDiamondCotegory.Anniversary div.flex .discover-collection a.button:hover,
+.celebrate-content a.see-btn:hover, .EngagementBridal-main .EngagementBridal-text .button:hover,
+.AnniversaryRing-main.own-engagment.education .grid-wrapper-bar .contant-bar a:hover {
+  background-color: #310F4C !important;
+  border-color: #310F4C;
+  color: #fff !important;
+}
+.ShopCategory.ShopDiamondCotegory.Anniversary .column-width h4 {
+  font-weight: 500;
+  font-size: 14px;
+  display: block;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.ShopCategory.ShopDiamondCotegory.Anniversary div.flex .discover-collection a.button {
+  border-radius: 5px;
+  border: 1px solid #000;
+  padding: 12px 20px;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  color: #000;
+  background-color: transparent;
+  line-height: normal;
+}
+.ShopCategory.ShopDiamondCotegory.Anniversary div.flex .discover-collection {
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+.ShopCategory.ShopDiamondCotegory.Anniversary.Rings {
+  padding-bottom: 80px;
+}
+.ShopCategory.Anniversary h3 {
+  color: #310F4C;
+}
+
+
+.own-engagment .grid-wrapper-bar .img-bar img {
+  height: 280px;
+  max-height: 280px;
+	min-height: inherit;
+	border-radius: 5px;
+}
+.home-page section.own-engagment .inner-own-eng .ring-grid-sec .grid-wrapper-bar {
+	width: calc(100% / 3 - 14px);
+}
+section.own-engagment .inner-own-eng .ring-grid-sec {
+	justify-content: inherit;
+	gap: 20px;
+}
+
+.grid-wrapper-bar .contant-bar {
+  margin-top: 20px;
+}
+.grid-wrapper-bar .contant-bar h5 {
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 600;
+	color: #000;
+	font-family: Montserrat;
+	line-height: normal;
+	width: fit-content;
+	margin: 0 auto;
+}
+.grid-wrapper-bar .contant-bar:hover h5,
+.ShopDiamondShape .ShopDiamondShape-img-text span:hover,
+.ShopDiamondCotegory .column-width h4:hover {
+  text-decoration: underline;
+  color: #310f4c;
+}
+.menRings .container {
+	background: transparent;
+}
+
+
+.EngagementBridal-main .flex.common-row.EngagementBridal {
+	background-color: transparent;
+	justify-content: inherit;
+	align-items: inherit;
+}
+.EngagementBridal-main .flex.common-row.EngagementBridal .EngagementBridal-text {
+	background-color: #fff;
+	padding: 62px 84px 62px 52px;
+	border-radius: 5px 0 0px 5px;
+	width: 53%;
+  display: flex;
+flex-direction: column;
+justify-content: center;
+}
+.EngagementBridal-main .flex.common-row.EngagementBridal .EngagementBridal-img {
+	width: 47%;
+}
+.EngagementBridal-main .flex.common-row.EngagementBridal .EngagementBridal-img img {
+  border-radius: 0 5px 5px 0px;
+  max-height: 470px;
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+.EngagementBridal-main .EngagementBridal-text .button {
+	padding: 14px 24px;
+	border-radius: 5px;
+	border: 1px solid #000;
+	font-size: 13px;
+	font-style: normal;
+	font-weight: 400;
+	color: #1B1818;
+	line-height: normal; width: fit-content;
+}
+.EngagementBridal-main .EngagementBridal-text p {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  font-size: 13px;
+  line-height: 24px;
+}
+section.own-engagment .inner-own-eng .ring-grid-sec {
+  margin-bottom: 50px;
+}
+
+
+.flex.common-row.EngagementBridal-2 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  justify-content: inherit;
+  align-items: flex-end;
+}
+
+.flex.common-row.EngagementBridal-2 .EngagementBridal-2-img {
+	width: 32%;
+}
+.flex.common-row.EngagementBridal-2 .EngagementBridal-2-img.text {
+	width: 36%;
+	padding: 0 50px;
+}
+.flex.common-row.EngagementBridal-2 .EngagementBridal-2-img.text p {
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  color: #000;
+}
+.flex.common-row.EngagementBridal-2 .EngagementBridal-2-img.text span {
+	font-size: 15px;
+	font-style: normal;
+	font-weight: 400;
+	color: #000;
+	line-height: normal;
+	display: block;
+  padding: 30px 0;
+  font-family: "Inter", sans-serif;
+} 
+.flex.common-row.EngagementBridal-2 .EngagementBridal-2-img.text a.button {
+  padding: 14px 20px;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  color: #FFF;
+  border-radius: 5px;
+  background: #310F4C;
+  border: 1px solid #310F4C;
+}
+.flex.common-row.EngagementBridal-2 .EngagementBridal-2-img.text a.button:hover {
+  background-color: #fff !important;
+  color: #310F4C;
+}
+
+.EngagementBridal-2-img img {
+  border-radius: 5px; width: 100%;
+  max-height: 350px;
+object-fit: cover;
+object-position: top;
+}
+
+
+
+.AnniversaryRing-main.own-engagment.education {
+  padding-top: 45px !important;
+  padding-bottom: 45px;
+  background-color: transparent;
+}
+.AnniversaryRing-main.own-engagment.education .ring-grid-sec {
+  gap: 10px;
+  margin-bottom: 0;
+}
+.home-page .AnniversaryRing-main.own-engagment.education .ring-grid-sec .grid-wrapper-bar {
+  width: calc(100% / 2 - 5px);
+}
+.AnniversaryRing-main.own-engagment.education .grid-wrapper-bar .img-bar img {
+  border-radius: 0;
+  height: 300px;
+  max-height: 300px;
+}
+
+.AnniversaryRing-main.own-engagment.education .grid-wrapper-bar .contant-bar p {
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  display: block;
+  margin-top: 15px;
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Montserrat;
+  margin-bottom: 20px;
+  min-height: 110px;
+}
+
+.AnniversaryRing-main.own-engagment.education .grid-wrapper-bar .contant-bar a {
+	padding: 12px 48px;
+	font-size: 13px;
+	font-style: normal;
+	font-weight: 400;
+	color: #1B1818;
+	line-height: normal;
+	border-radius: 5px;
+	border: 1px solid #000;
+}
+.AnniversaryRing-main.own-engagment.education .heading-text span {
+  display: block;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  color: #310F4C;
+  font-family: Montserrat;
+  letter-spacing: 1.45px;
+  font-size: 13px;
+  margin-top: 10px;
+}
+/**21-05-24**/
+
+.main-content .white-wrapper .lab-diamond-btn {
+  border: 1px solid #E4E4E4;
+  border-radius: 30px;
+  padding: 10px 25px;
+  margin-bottom: 38px;
+}
+.main-content .white-wrapper .lab-diamond-btn .shop-by-common a {
+  padding: 0;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  color: #310F4C;
+}
+.main-content .white-wrapper .lab-diamond-btn .shop-by-common.active a , .gemstone-main .gemstone-Active a{
+	font-weight: 600 !important;
+}
+.main-content .white-wrapper .lab-diamond-btn .shop-by-common:not(:last-child) a::after {
+  width: 2px;
+  height: 20px;
+  top: 0;
+}
+.main-content .white-wrapper .lab-diamond-btn .shop-by-common.shop-by-shape {
+  padding-left: 0px;
+}
+
+
+.shop-by-page-common .shop-style-img {
+  width: 90px;
+  height: 90px;
+	background: #FFF;
+	border-radius: 50%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;margin: 0 auto;
+  border: 2.2px solid transparent;
+}
+.shop-by-page-common .shop-style-img img {
+  height: auto;
+  background-color: transparent;
+  border: 0 !important;
+  padding: 10px;
+  border-radius: 0;
+  margin: 0;
+  width: auto;
+  object-fit: inherit;
+}
+.shop-by-page-common.shop-by-shape-style {
+  max-width: 80%;
+}
+.shop-by-page-common .shop-style-text span, .slick-list .shop-style-text {
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  color: #000; white-space: normal;
+} 
+
+ .style-active-common  .shop-style-img , a.style-active-common.active, .style-active-common .diamond-image-slider{
+  border: 2px solid #310F4C  !important;
+}
+.metal-color-active .metal-all-color{
+  border: 2px solid #310F4C;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.metal-color-active .shop-by-metal-color-name{
+  color: #310F4C;
+}
+.metal-all-color{
+  border: 2px solid #fff;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.shop-by-page-common  .style-active-common .shop-style-text span {
+  color: #310F4C; font-weight: 600;
+}
+
+.shop-by-page-common.Bridal-Sets-Only-setting-style {
+	max-width: 100%;
+}
+
+
+.shop-by-page-common.Bridal-Sets-Only-setting-style .shop-style-img {
+  width: 101px;
+  height: 101px;
+}
+.shop-by-page-common .corusel-diamond {
+  max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+
+.shop-by-page-common .corusel-diamond .check-text {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.shop-by-page-common .corusel-diamond .check-text span {
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: #000;
+}
+.shop-by-page-common .corusel-diamond .check-text .corusel-diamond-checkbox {
+  margin-left: 0;
+  margin-right: 8.8px;
+}
+.shop-by-page-common .corusel-diamond .check-text .corusel-diamond-checkbox .form-group-diamond label::before {
+  border-radius: 4.917px;
+  background: #D9D9D9;
+}
+.shop-by-page-common .corusel-diamond .corusel-diamond-heading, 
+.shop-by-shape-page .shop-by-metal-page .metal-variants .metal-text, .choose-setting-pages-main .shape-main > span {
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 800;
+	line-height: normal;
+	color: #000;
+}
+.choose-setting-pages-main .style-main .shop-by-shape-style .slick-slider {
+  padding-left: 18.5px;
+  padding-right: 18.5px;
+}
+.choose-setting-pages-main .style-main .shop-by-shape-style .slick-slider .slick-arrow.slick-prev, .choose-setting-pages-main .shape-main .slick-slider .slick-arrow.slick-prev {
+  left: 0;
+}
+.choose-setting-pages-main .style-main .shop-by-shape-style .slick-slider .slick-arrow.slick-next, .choose-setting-pages-main .shape-main .slick-slider .slick-arrow.slick-next {
+  right: 0;
+}
+
+.choose-setting-pages-main .shape-main > span {
+	margin-top: 10px;
+	display: block;
+	margin-bottom: 19px;
+	padding-bottom: 0;
+}
+.choose-setting-pages-main .shape-main {
+  width: 50%;
+  padding: 0;
+}
+.choose-setting-pages-main .shape-main .slick-slider {
+  padding-left: 16.5px;
+  padding-right: 16.5px;
+}
+.choose-setting-pages-main .shape-main .diamond-image-slider, .choose-diamonds .diamond-image-slider, .gemstone-main .diamond-image-slider{
+  width: 90px;
+  height: 90px;
+  background: #FFF;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  overflow: hidden;
+  border: 2px solid #fff;
+}
+.choose-setting-pages-main .shape-main .diamond-image-slider img {
+  padding: 0;
+  border: 0;
+  background-color: transparent;
+}
+.diamond-image-slider img, .choose-setting-pages-main .shape-main .diamond-image-slider img {
+  max-width: 50px;
+}
+
+.shop-by-shape-style .shop-style-text, .shape-main .shape-text {
+	font-size: 17.6px;
+	font-style: normal;
+	font-weight: 400;
+	color: #000;
+}
+.choose-setting-pages-main .shape-main .shape-text {
+  text-transform: capitalize;
+}
+.choose-setting-pages-main .style-main {
+  padding-right: 6px;
+}
+.choose-setting-pages-main .shape-main {
+	padding-left: 6px;
+}
+.shop-by-shape-page .shop-by-metal-page {
+	padding-left: 0;
+	width: 100%;
+	padding-top: 0;
+	max-width: 490px;
+	margin-left: auto;
+	margin-right: auto; margin-top: 37px;
+}
+.metal-variant-list {
+	gap: 10px;
+}
+.metal-variant-list .shop-by-metal-color {
+	width: calc(100% / 5 - 8px);
+	padding-bottom: 0;
+}
+.metal-variant-list .shop-by-metal-color a[type="button"] {
+  width: 85px;
+  height: 85px;
+  border: 12px solid #fff;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.shop-by-metal-color-name {
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: #000;
+  padding-top: 15.4px;
+  text-align: center; white-space: normal;
+}
+.best-seller-main {
+  border-radius: 10px;
+  background: #FFF;
+  padding: 14px 28px 14px 10px;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  margin-bottom: 24px; align-items: center;
+}
+.best-seller-main > span {
+  width:55%;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  color: #310F4C;
+  text-align: right;
+  display: block;
+  line-height: normal;
+}
+.best-seller-main > .best-seller {
+  width: 45%;
+}ṅ
+.best-seller-main > .best-seller form label {
+  margin-right: 10px;
+  width: auto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  color: #000;
+}
+.best-seller-main > .best-seller form .css-b62m3t-container {
+  min-width: 200px;
+  padding-left: 5px;
+}
+.best-seller-main > .best-seller form {
+  display: flex;
+  align-items: center;
+  flex-wrap: inherit;
+  justify-content: flex-end;
+  position: relative;
+  z-index: 99;
+}
+.best-seller-main > .best-seller form .css-b62m3t-container .css-13cymwt-control .css-1fdsijx-ValueContainer {
+  padding: 0;
+}
+.best-seller .css-1u9des2-indicatorSeparator {
+  background-color: #000 !important;
+  display: none;
+}
+.best-seller-main > .best-seller form .css-13cymwt-control {
+  border: 0;
+  min-height: inherit;
+  width: auto;
+}
+.best-seller-main > .best-seller form .css-b62m3t-container .css-13cymwt-control .css-1fdsijx-ValueContainer > div {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  color: #000;
+  text-align: left;
+}
+.css-1dimb5e-singleValue {
+  font-size: 12px;
+  padding: 0;
+  margin: 0;
+}
+.best-seller-main > .best-seller form .css-13cymwt-control .css-1hb7zxy-IndicatorsContainer .css-1u9des2-indicatorSeparator {
+  display: none;
+}
+.css-1hb7zxy-IndicatorsContainer > div {
+  padding: 0 !important;
+}
+
+.resultdata.setings-Page-img {
+  gap: 10px;
+}
+
+.resultdata.setings-Page-img .all-pages-data {
+  margin: 0;
+  background-color: #fff;
+  border-radius: 5px;
+  border: 1px solid #F6F6F6;
+  width: calc(100% / 4 - 8px);
+  padding: 0 15px 25px;
+}
+.product-main-img .common-img {
+  width: 100%;
+  padding: 31px 0;
+}
+.heart-icon svg {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  font-size: 20px;
+ z-index: 11;
+}
+.resultdata.all-pages-data.active .all-pages-data .metal-name, .metal-name-item-name, .metal-name-by-default {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  color: #000;
+  line-height: 23px;
+  margin-bottom: 10px;
+}
+.product-price {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  color: #424242;
+  line-height: normal;
+}
+.all-card-four-color > a {
+	margin: 0 4px 12px;
+}
+.resultdata.all-pages-data .all-card-four-colors ~ div {
+  padding: 0;
+}
+/* 22-5-2024 =============================*/
+
+.main-diamond-filter .shape-diamond-filter .Diamond-Original-main > span {
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 800;
+	line-height: normal;
+	color: #000;
+	padding: 0;
+}
+.main-diamond-filter .shape-diamond-filter .Diamond-Original-main > .Diamond-Original {
+  margin-top: 20px;
+}
+.main-diamond-filter .shape-slider-1 > span, .main-diamond-filter .shape-slider-2 > span {
+  color: #000;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.slider-carat-slider {
+  border-radius: 4.819px;
+  background: #FFF;
+  padding: 27px 22px;
+  margin-top: 32px;
+  margin-bottom: 21px;
+}
+.slider-carat-slider .slider {
+  margin-top: 0;
+  background-color: #734E90;
+  height: 3px;
+}
+.slider-carat-slider .slider .thumb {
+  width: 20px;
+  height: 20px;
+  background-color: #310F4C;
+  margin-top: -9px;
+}
+.slider-carat-inner-text > div {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: #000;
+}
+.main-diamond-filter .Diamond-Original-main {
+  padding-bottom: 15px;
+}
+.slider-carat-inner-text {
+  padding: 0 22px;
+}
+
+.choose-diamonds .diamonds-table .data-tabs {
+  border-radius: 5px;
+  background: #FFF;
+  padding: 6px 7px;
+  margin-bottom: 15px; align-items: center;
+}
+
+.choose-diamonds .diamonds-table .data-tabs li {
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  color: #310F4C !important;
+  margin-right: 20px;
+  padding: 0;
+  cursor: pointer;
+}
+.choose-diamonds .diamonds-table .data-tabs li.active {
+  background-color: #F3F3F3;
+  border: 0;
+  color: #000 !important;
+  font-weight: 800;
+  border-radius: 5px;
+  padding: 8px 22px;
+  cursor: pointer;
+}
+.diamonds-table .breadCram a {
+  border-radius: 5px;
+  background: #F3F3F3;
+  border: 0;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  color: #000;
+  padding: 8px 22px;
+  text-transform: capitalize;
+}
+.table-outer {
+  border-radius: 5px;
+  background: #000;
+  padding: 14px 33px;
+  display: inline-block;
+  width: 100%;
+}
+.diamonds-table .table-outer table tr th {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: #FFF;
+  padding: 0;
+  width: 14%;
+
+}
+
+.diamonds-table .table-outer table tr th > span {
+  padding: 0;
+  font-size: 15px;
+  margin-top: 2px;
+  margin-left: 3px;
+}
+.data-table-responsive ul.prodcut-data {
+  padding: 9px 33px;
+  border: 0;
+  border-radius: 5px;
+  background: #FFF;
+  margin-bottom: 10px;
+}
+.item-shape-image {
+  max-width: 30px;
+  line-height: 0;
+}
+.prodcut-data .heading-data-categery p {
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: #000; text-align: left;
+}
+.heading-data-categery.campare .form-group label::before {
+  border-radius: 5px;
+  background: #ECECEC;
+  border-color: #ECECEC;
+}
+.diamonds-table .table-outer table tr {
+  background-color: transparent !important;
+}
+.prodcut-data li.heading-data-categery {
+	width: 15%;
+}
+.applying-breadCrum {
+	border-radius: 5px;
+	background: #FFF;
+	padding: 6px 7px;
+	margin-bottom: 15px;
+}
+.applying-breadCrum .bredCramStyleFilter {
+  padding: 0;
+  text-transform: capitalize;
+}
+.applying-breadCrum .bredCramStyleFilter .breadCram a {
+  margin-left: 0;
+}
+.choose-diamonds .prodcut-data:hover {
+  background-color: #310f4c;
+}
+
+
+.slider-color-slider, .slider-clarity-slider {
+  background: #FFF;
+  display: inline-block;
+  width: 100%;
+  padding: 20px 28px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.slider-color-slider .slider, .slider-clarity-slider .slider {
+  margin-top: 0;
+}
+.shape-diamond-more-filter .slider {
+  background: #734E90;
+  height: 3px;
+}
+.shape-diamond-more-filter .slider .thumb {
+  width: 20px;
+  height: 20px;
+  background-color: #310F4C;
+  border: 0;
+  margin-top: -9px;
+}
+.shape-diamond-more-filter span.mark {
+  border: 0px solid white;
+  height: 7px;
+  width: 7px;
+  background-color: #310F4C;
+  border-radius: 50%;
+  margin-top: -2px;
+}
+
+.center.diamond-table-sort form {
+  background: #FFF;
+  border-radius: 5px;
+  padding: 12px 28px;
+}
+.more-filter .center.diamond-table-sort form select#sort {
+  border: 0;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  color: #000;
+  font-family: Montserrat;
+  padding: 0; background-color: transparent;
+}
+
+.shape-diamond-more-filter .shape-color > span, .more-filter-clarity > span, .shape-cut > span {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 15.4px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.color-text {
+  margin-top: 10px;
+}
+.color-text ul li, .cut-list-diamonds ul li {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.shape-diamond-more-filter .shape-cut {
+  padding-top: 45px;
+}
+.choose-diamonds .diamond-table-sort {
+  padding-top: 69px !important;
+}
+.main-diamond-filter .shape-diamond-filter.active, .main-diamond-filter .shape-diamond-more-filter.active {
+  column-gap: 12px;
+}
+.main-diamond-filter .color-text ul {
+  justify-content: space-between;
+  max-width: 92%;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  left: 8px; 
+  padding-top: 0 !important;
+}
+
+.main-diamond-filter .color-text ul.clarity {
+  padding: 0;
+    padding-top: 0px;
+
+}
+
+.cut-list-diamonds ul {
+  justify-content: space-between;
+  padding-top: 0 !important;
+}
+.cut-list-diamonds ul li {
+  padding: 0;
+}
+.cut-list-diamonds {
+  margin-top: 10px;
+}
+
+.card-right-side .order-box {
+  border-radius: 5px;
+  background: #FFF;
+  border: 0;
+  padding: 15px 20px;
+}
+
+.card-right-side .order-box > h3 {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 18px !important;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 27px;
+  text-align: left;
+  margin-top: 0;
+}
+.card-right-side .order-box > p {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.last-update-order p {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  text-align: center;
+  padding-top: 15px;
+}
+.card-right-side .order-box .detail-content-list-checkout li {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #F3F3F3;
+  padding: 10px 0;
+}
+.card-right-side .order-box .detail-content-list-checkout li span {
+  font-weight: 400;
+}
+.shoping-car-page .shoping-card-main-wrap .card-right-side {
+  width: 50%;
+  padding-left: 20px;
+}
+.card-right-side .shipping-info a {
+  text-align: center;
+  margin: 0;
+  color: #000;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 13px;
+  max-width: fit-content; 
+  margin: 0 auto; padding: 5px 10px;
+}
+.card-right-side .shipping-info {
+  border-radius: 5px;
+  border: 1px solid #fff;
+  padding: 5px 20px;
+  margin: 15px 0;
+  background-color: #fff;
+}
+.card-right-side .shipping-info h4 {
+  margin: 0;
+}
+.card-right-side .shipping-info span svg {
+  width: 22px;
+  height: 22px;
+}
+
+.card-right-side .add-form-gift-message, .card-right-side .add-form-gift , .checkout-left .shipngOverNight {
+  border-radius: 5px;
+  background: #FFF;
+  padding: 12px 25px;
+  border: 0;
+  margin: 15px 0px;
+}
+.card-right-side .add-form-gift-message .add-per-info, .card-right-side .add-form-gift .add-per-info, .card-right-side .add-form-gift-checkout .add-per-info {
+  justify-content: space-between;
+  cursor: pointer;
+}
+.card-right-side .add-form-gift-message p {
+  color: #734E90;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.card-right-side .add-form-gift-message svg, .card-right-side .add-form-gift svg {
+  width: 25px;
+  height: 25px;
+} 
+.card-right-side .add-form-gift .add-per-info p {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.card-right-side .add-form-gift .add-per-info p span {
+  font-weight: 800;
+}
+.card-right-side .add-form-gift-checkout {
+  border-radius: 5px;
+  background: #734E90;
+  padding: 12px 25px;
+}
+.card-right-side .add-form-gift-checkout .add-per-info p {
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+}
+.card-right-side .add-form-gift-checkout .add-per-info span {
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+.shop-by-page-common .style-main .slick-slider, .shop-by-page-common .color-slider .slick-slider, 
+.shop-by-page-common .shape-main .slick-slider {
+  padding-left: 18.5px;
+  padding-right: 18.5px;
+  margin-top: 20px;
+}
+.shop-by-page-common .style-main .slick-slider .slick-arrow.slick-prev, 
+.shop-by-page-common .color-slider .slick-slider .slick-arrow.slick-prev,
+.shop-by-page-common .shape-main .slick-slider .slick-arrow.slick-prev {
+  left: 0;
+}
+.shop-by-page-common .style-main .slick-slider .slick-arrow.slick-next, 
+.shop-by-page-common .color-slider .slick-slider .slick-arrow.slick-next,
+.shop-by-page-common .shape-main .slick-slider .slick-arrow.slick-next {
+  right: 0;
+}
+
+.shop-by-page-common .color-slider > span, .shop-by-page-common .shape-main > span,.main-diamond-filter .lab-grown-shape-icons > span {
+  margin-bottom: 0;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  color: #000;
+}
+/* .shop-by-page-common .shape-main {
+  margin-top: 37px !important;
+} */
+
+.sticky-inner-main .right-product-content .heading-four {
+  padding-bottom: 0;
+  margin-bottom: 0;
+  font-size: 22px;
+  line-height: normal;
+  border-bottom: 0;
+}
+.sticky-inner-main .right-product-content p {
+  color: #000;
+  line-height: 22px;
+}
+
+.sticky-inner-main .right-product-content .setting-only-price span {
+  font-weight: 700 !important;
+  font-size: 20px !important;
+  color: #310f4c;
+}
+.sticky-inner-main .right-product-content .setting-price-main {
+  border-color: #ccc;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 10px 0;
+}
+.sticky-inner-main .right-product-content .selected-inner-pair {
+  padding-top: 0;
+  padding-bottom: 15px;
+}
+.sticky-inner-main .right-product-content .selected-inner-pair .right-purchage-icon-content .media-heading {
+  line-height: normal;
+  letter-spacing: 0;
+  font-size: 18px;
+}
+.sticky-inner-main .right-product-content .social-icons {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 10px 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.sticky-inner-main .right-product-content .social-icons ul li {
+  width: calc(100% / 3);
+  padding: 5px 0;
+}
+
+.sticky-inner-main .right-product-content .selected-inner-pair, .sticky-inner-main .right-product-content .drop-down-dimaond-details {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.sticky-inner-main .right-product-content .selected-inner-pair p {
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.sticky-inner-main .right-product-content .add-to-ring-bag a {
+  font-family: Montserrat;
+  letter-spacing: 0; width: 100%;
+}
+
+.sticky-inner-main .right-product-content .drop-down-dimaond-details ul li {
+  border: 0; margin: 8px 0;
+}
+.sticky-inner-main .right-product-content .drop-down-dimaond-details ul li a {
+  padding: 0; font-size: 14px;
+}
+.sticky-inner-main .right-product-content .drop-down-dimaond-details ul {
+  padding-bottom: 0;
+}
+.drop-down-dimaond-details .dimaond-details-sub-list li {
+  border-top: 1px solid #f4f4f4 !important;
+}
+.sticky-inner-main .right-product-content .drop-down-dimaond-details .dimaond-details-sub-list {
+  margin-top: 15px;
+}
+.drop-down-dimaond-details .dimaond-details-sub-list li svg {
+  vertical-align: middle;
+}
+.sticky-inner-main .right-product-content .selected-inner-pair {
+  border-bottom: 0;
+}
+
+.luxury-conscience-wrapper .gemstone-luxury-content .gemstone-heading-luxy {
+  line-height: normal;
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+.luxury-conscience-wrapper .gemstone-luxury-content > p {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.luxury-conscience-wrapper .luxury-drop .custom-order-faq span:not(:first-child) svg {
+  width: 25px;
+  height: 25px;
+}
+.browse-similar-gemstones > p {
+  color: #000;
+}
+.browse-similar-gemstones .similar-gemstones .gemstone-inner-main {
+  background-color: #fff;
+  border: 0;
+}
+.browse-similar-gemstones .similar-gemstones .gemstone-inner-main .gems-limit .limit p {
+  color: #000;
+  font-size: 16px;
+}
+.browse-similar-gemstones .similar-gemstones .gemstone-inner-main .gems-limit p {
+  font-size: 18px;
+}
+.similar-gemstones .dia-gems svg {
+  width: 20px;
+  height: 20px;
+  color: #000;
+}
+.browse-similar-gemstones .similar-gemstones {
+  margin-top: 30px;
+}
+
+
+
+
+.one-choose-setting.last-btn {
+  padding-left: 0px;
+}
+.one-choose-setting.first-btn > a {
+  padding-right: 0;
+}
+
+.error {
+  color: red;
+  font-size: 0.875em;
+}
+.form-control {
+  margin-bottom: 1em;
+}
+.form-control label {
+  display: block;
+}
+.form-control input {
+  width: 100%;
+  padding: 0.5em;
+  margin-top: 0.5em;
+}
+.Diamond-Original-main.N\/A , .shape-main.N\/A{
+  padding-bottom: 7px;
+}
+.Engraving input[type="text"] , select#cars{
+  margin-left: 15px;
+  border: none;
+  border-bottom: 2px solid #00000059;
+  padding: 5px 5px 0;
+}
+select#cars {
+  margin-left: 54px;
+}
+.detail-price .unbold {
+  padding-left: 75px;
+  font-weight: bold;
+}
+/*.Need-More-Time .submit-btn {
+  top: 37px;
+}*/
+
+section.add-matching-wedding-band {
+  margin-top: 30px;
+}
+.add-matching-wedding-band .loves-inner {
+  background-size: contain;
+}
+section.add-matching-wedding-band .loves-inner::before {
+  background-image: url("https://assets.rocksama.com/frontend/images/cartRightBanner.png");
+  background-color: transparent;
+  filter: inherit;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 77%;
+}
+.add-matching-wedding-band .loves-inner {
+  background-size: contain;
+  background-color: transparent; 
+}
+section.add-matching-wedding-band .love-right-content a.explore {
+  border-radius: 5px;
+  border: 1px solid #FFF;
+  background: #FFF;
+  color: #000;
+  font-style: normal;
+  font-weight: 800;
+  margin-top: 20px;
+}
+section.add-matching-wedding-band .love-right-content a.explore:hover {
+  background-color: transparent;
+  color: #fff;
+}
+.slider-flex-category {
+  margin-top: 35px;
+}
+/* / ==========28-5=========== / */
+
+
+.shipping-add {
+	background-color: #fff;
+	border-radius: 5px;
+	padding: 20px 20px; font-size: 14px;
+}
+.singleProduct-text .shipping-add ul {
+	padding: 0;
+	border-top: 0;
+	margin-bottom: 18px;
+}
+.Need-More-Time-details {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.Need-More-Time-details .user-detail {
+  background-color: transparent;
+  padding: 0;
+}
+.Need-More-Time-details .user-detail {
+  background-color: transparent;
+  padding: 0;
+  display: block;
+  column-count: 3;
+}
+.Need-More-Time-details .user-detail > a {
+  margin-bottom: 15px;
+  max-width: fit-content;
+}
+.Need-More-Time-details .user-detail svg {
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+}
+.Need-More-Time-details .Need-More-Time.footer form {
+  margin-bottom: 0;
+  margin-top: 10px;
+}
+.Need-More-Time-details .Need-More-Time.footer form .email input#newsletter-email {
+  border-radius: 5px;
+  border: 1px solid #dfdfdf;
+  font-family: Montserrat;
+  padding-right: 110px;
+  height: 50px;
+  
+}
+/*.Need-More-Time-details .Need-More-Time.footer form .submit-btn {
+  top: 38px;
+}*/
+.Need-More-Time-details .Need-More-Time.footer form .submit-btn input.button {
+  line-height: normal;
+  font-size: 13px;
+  text-transform: uppercase;
+  padding: 17px 25px; background-color: #310f4c;
+  color: #fff;
+}
+.Engraving input[type="text"], select#cars {
+  width: 100%;
+  border: 0;
+  background-color: #fff;
+  height: 40px;
+  padding: 0 10px;
+  font-family: Montserrat;
+  margin-left: 0; border-radius: 5px;
+}
+.detail-price > span {
+  width: 150px;
+  text-align: left;
+  justify-content: flex-start;
+}
+.detail-accordian {
+  margin-top: 15px;
+  background-color: #fff;
+  padding: 12px 20px;
+  border-radius: 5px;
+}
+.singleProduct-text .detail-accordian .item {
+  border: 0;
+  padding: 0;
+  min-height: inherit;
+  min-width: inherit;
+}
+
+.singleProduct-text .detail-accordian .item .ring-info {
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 0;
+}
+.singleProduct-text .detail-accordian .item .ring-info > span {
+  padding-bottom: 10px;
+}
+.Diamond-Original {
+  margin-top: 10px;
+}
+.singleProduct .singleProduct-text h4 {
+  font-size: 25px;
+}
+ul.picture-of-help-page {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  gap: 20px;
+}
+.payment-form {
+  padding-bottom: 60px;
+}
+.Diamond-Original-main.Centerstone > span:not(:first-child, :last-child) a {
+  border: 1px solid #ddd;
+  margin: 0 5px;
+  background: #fff;
+  width: 40px;
+  min-height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px; font-size: 13px;
+}
+.Diamond-Original-main.Centerstone > span:first-child {
+  width: 100%;
+}
+.Diamond-Original-main.Centerstone > span:nth-child(2) a{
+margin-left: 0;
+}
+.Diamond-Original-main.Centerstone > span:last-child a {
+  border: 1px solid #ddd;
+  padding: 8px 12px;  min-height: 40px;
+  margin: 0 5px;
+  background: #fff;
+  border-radius: 5px; font-size: 13px;   display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+span.active-stone a {
+  /* border-color: red; */
+  border: 2px solid #734E90 !important;
+}
+
+.mobile {
+  display: none;
+}
+
+
+.detail-price-main .remove-option {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 5px;
+  padding: 12px 15px;
+  background: #fff;
+}
+.detail-price-main .remove-option a, .detail-price-main .remove-option span {
+  font-size: 14px;
+  font-weight: 400; 
+}
+
+.detail-price-main .remove-option span {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+.detail-price-main .remove-option a svg {
+  vertical-align: middle; position: relative;
+  top: -1px;
+}
+a.shape.style-active-common .shape-text > span {
+  color: #32104d;
+}
+.details-page :where(.css-dev-only-do-not-override-1xg9z9n).ant-select-single {
+  height: 40px;
+  width: 100%;
+}
+.details-page .contact-us-btn.shipping-add{
+  margin-bottom: 20px;
+}
+.details-page .color-details {
+  margin-bottom: 8px;
+}
+.color-clarity-details{
+  display: block  !important;
+}
+.contact-us-btn.shipping-add > a {
+  font-size: 15px;
+  border-bottom: 0px solid #310f4c;
+  font-weight: 600;
+}
+table.responsive.tw-mx-auto.tw-w-full {
+  background-color: transparent;
+  border-collapse: collapse;
+  border-spacing: 0px;
+}
+table.responsive th, table.responsive td {
+  border: 1px solid rgb(212, 212, 212);
+  padding: 9px 10px;
+  text-align: center;
+}
+.main-ring-size-chart {
+  height: 500px;
+  overflow-y: scroll;
+  background: #fff;
+  padding: 0 15px;
+}
+.details-page .select-custom-size-side,.select-custom-size-side {
+  display: flex;
+  align-items: center;
+}
+ .select-custom-size-side span >svg{ 
+  cursor: pointer;
+  margin-left: 0px;
+  width: 18px;
+  height: 18px;
+  margin-right: 1px;
+}
+.purchage-select-box .css-b62m3t-container {
+  width: 100%;
+}
+body.email-popup-open .main-ring-size-chart {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #00000091;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  z-index: 999;
+  height: 100%;
+  overflow-x: auto;
+}
+body.email-popup-open .main-ring-size-chart .popup-custom {
+  background: #fff;
+  max-width: 850px;
+  height: 580px;
+  overflow-y: auto;
+  padding: 30px;
+  width: 850px; margin-top: 20px;
+  margin-bottom: 20px;
+}
+.account-page section.popup-need-assis, .new-popups {
+  position: relative;
+  z-index: 999;
+  opacity: 1;
+  background: #2e2e2ebd ;
+  padding: 30px;
+  max-width: 750px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+.account-page .popup, .new-popups{
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: #000000a6;
+  bottom: 0;
+  left: 0;
+  z-index: 1050;
+  display: none;
+  overflow: hidden;
+  outline: 0;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+}
+body.email-popup-open .popup, body.email-popup-open .new-popups {
+  display: block;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.ShopCategory.ShopDiamondCotegory .slider-flex-category .slick-list .slick-track {
+  display: flex;
+  gap: 9px;
+}
+.ShopCategory.ShopDiamondCotegory .slider-flex-category .slick-list .slick-slide .column-width {
+  padding: 0 !important;
+}
+.main-content.choose-setting-pages {
+  padding-top: 20px;
+}
+.shop-style-text {
+  text-transform: capitalize;
+}
+.add-form-gift-message .add-form {
+  padding-left: 0;
+}
+.breadcrums ul li {
+  margin-right: 5px;
+}
+.wishlist-main.wishlist-data-base {
+  padding-bottom: 50px;
+}
+.normal-statement .nowrap {
+  padding-left: 5px;
+}
+.right-product-content p.normal-statement {
+  padding: 10px 0;
+}
+.footer-all-pages-display {
+  padding-bottom: 0px;
+}
+p.privacy-views {
+  font-size: 13px;
+  color: #000;
+}
+.setting-price-main .price-tabbing-common {
+  font-size: 18px;
+  font-weight: bold;
+}
+.purchage-select-box p#error-message {
+  margin-bottom: 15px;
+}
+.media-subtotal > span:last-child {
+  padding-left: 5px;
+}
+.banner-Rings .button {
+  line-height: normal;
+  padding: 11px 25px;
+  font-weight: 400;
+  font-size: 13px; border: 1px solid #310f4c;
+}
+.banner-Rings .button:hover {
+  background-color: #fff !important;
+}
+.more-to-explore-child .img img {
+  width: 100%;
+}
+.resultdata .all-pages-data .outerDiv {
+  min-height: inherit;
+}
+.color-clarity-details .unbold {
+  padding-left: 0;
+}
+.singleProduct-text .detail-accordian .item .ring-info > div span,
+.singleProduct-text .detail-accordian .item .ring-info .color-clarity-details div,
+.detail-accordian .item .ring-info {
+  font-size: 12px;
+}
+.singleProduct-text .detail-accordian .title {
+  margin: 0; cursor: pointer;
+} 
+
+.singleProduct-text .choose-btnn {
+  gap: 10px;
+}
+section.see-products-main .see-products-img span:first-child {
+  display: block;
+}
+section.add-matching-wedding-band .container {
+  max-width: 100%;
+}
+.card-right-side .order-box .table-count {
+  margin-top: 10px;
+}
+
+
+.payment-form .checkout .checkout-left form .form-control label {
+  font-size: 14px;
+  font-weight: 400; padding-right: 0;
+} 
+.payment-form form > div > input {
+	height: 42px;
+	width: 100%;
+	background-color: #fff;
+	font-family: Montserrat;
+	letter-spacing: 0;
+	font-weight: 600;
+	border-radius: 3px;
+	border: 1px solid #ccc;
+	padding: 0 15px;
+	font-size: 13px;
+}
+.payment-form .checkout .checkout-left form {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
+}
+
+.payment-form .checkout .checkout-left form .form-control {
+  width: calc(100% / 2 - 5px); margin-bottom: 0;
+}
+.payment-form .checkout {
+	align-items: flex-start;
+}
+
+.shopping-card-main-wrap.empty-bag a {
+  text-decoration: underline;
+}
+span.items-available-only {
+  font-weight: 700;
+}
+.product-of-interest h5 a:hover {
+  color: #310F4C;
+}
+.detail-price-main .detail-col.img {
+  justify-content: center;
+}
+p.MsoNormal span {
+  display: inline-block;
+}
+.card-right-side-in {
+  position: sticky;
+  top: 20px;
+}
+.select-custom-size-side .ant-select.ant-select-outlined {
+  max-width: 100%;
+  width: 100%;
+}
+.best-seller-main .css-hlgwow {
+  width: auto;
+}
+.main-ring-size-chart .inner-popup-ring-size .main-top-sect-right-chart p {
+  margin: 15px 0 22px;
+  font-size: 14px;
+}
+.table-ring-chart table.responsive {
+  width: 1500px;
+}
+.table-ring-chart {
+  overflow: auto;
+}
+.table-ring-chart table.responsive th {
+  font-size: 14px;
+  line-height: normal;
+}
+.table-ring-chart table.responsive td {
+  font-size: 12px;
+}
+.add-form-gift-message .saved-message p {
+  word-wrap: break-word;
+  padding: 10px;
+  font-size: 12px;
+  font-weight: normal;
+  color: #000;
+}
+body.popup-open {
+  overflow: hidden;
+}
+.banner-section {
+  padding-bottom: 50px;
+}
+.see-products-main {
+  padding-top: 50px;
+}
+
+.ShopCategory .slick-slider .slick-arrow {
+  height: 25px;
+}
+.ShopCategory .slick-slider .slick-arrow:hover, .shop-by-page-common .slick-slider .slick-arrow:hover,
+.lab-grown-shape-icons .slick-slider .slick-arrow:hover {
+  background-color: #310f4c;
+}
+.ShopCategory .slick-slider .slick-arrow::after {
+  top: 7px;
+  left: 8px;
+}
+.ShopCategory .slick-slider .slick-arrow.slick-next::after {
+  left: auto;
+  right: 6px;
+}
+.ShopCategory .slick-slider .slick-arrow:hover::after,
+.shop-by-page-common .slick-slider .slick-arrow.slick-next:hover::after,
+.shop-by-page-common .slick-slider .slick-arrow.slick-prev:hover::after,
+.lab-grown-shape-icons .slick-slider .slick-arrow.slick-prev:hover::after,
+.lab-grown-shape-icons .slick-slider .slick-arrow.slick-next:hover::after {
+  border-color: #fff;
+}
+
+.shop-by-page-common .slick-slider .slick-arrow,
+.lab-grown-shape-icons .slick-slider .slick-arrow {
+  height: 25px;
+}
+.shop-by-page-common .slick-slider .slick-arrow.slick-next::after,
+.lab-grown-shape-icons .slick-slider .slick-arrow.slick-next::after {
+  top: 7px !important;
+  right: 6px !important;
+}
+.shop-by-page-common .slick-slider .slick-arrow.slick-prev::after,
+.lab-grown-shape-icons .slick-slider .slick-arrow.slick-prev::after {
+  top: 7px !important;
+  left: 7px !important;
+}
+.lab-grown-shape-icons .slick-slider .slick-arrow.slick-prev {
+  left: 0;
+}
+.lab-grown-shape-icons .slick-slider .slick-arrow.slick-next {
+  right: 0;
+}
+.footer-all-pages-display ul {
+  padding-left: 12px;
+}
+
+.lab-grown-shape-icons .slick-slider {
+  padding-left: 16.5px;
+  padding-right: 16.5px;
+}
+.ShopDiamondShape {
+	background-color: #fff;
+}
+
+.protect-check-list ul li.plan-active {
+  border: 3px solid #734E90;
+}
+.protect-check-list ul li {
+  display: flex;
+  flex-direction: column;
+  color: #000;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  row-gap: 10px;
+  border-radius: 10px;
+  background: #F6F6F6;
+  height: 80px;
+  justify-content: center;
+  cursor: pointer;
+  border: 3px solid transparent;
+}
+.diamond-info-drophint {
+  padding-top: 36px;
+}
+
+.ring-info-drophint {
+    line-height: normal;
+    text-transform: capitalize;
+}
+.diamond-by-common a {
+  font-size: 14px;
+}
+
+
+.footer-all-pages-display .diamond-shape-img .flex {
+  align-items: inherit;
+  justify-content: left;
+  gap: 10px;
+}
+.footer-all-pages-display .diamond-shape-img .ShopDiamondShape-img-text {
+  background-color: #fff;
+  border-radius: 4px;
+}
+.footer-all-pages-display .diamond-shape-img .ShopDiamondShape-img-text .own-ring-white {
+  height: auto;
+  background-color: transparent;
+  border-radius: 0;
+}
+.footer-all-pages-display .diamond-shape-img .ShopDiamondShape-img-text .own-ring-white a {
+  font-size: 14px;
+  font-family: Montserrat !important;
+}
+.font-select .ant-select, .font-select{
+  width: 100%;
+} 
+span.Bridal-Sets-Only-bread-crumb.active {
+  display: flex;
+  cursor: pointer;
+}
+.shape-diamond .shape-main .shape-active , .shape.active-hov  {
+  border: 2px solid #310F4C  !important;
+}
+.shopping-card-main-wrap.empty-cart  { 
+   text-align: center;
+  
+}
+
+.wishlist-shopping h3{
+  text-align: start;
+}
+.shoping-car-page h1 {
+  font-size: 30px;
+  padding-top: 40px;
+}
+
+
+.details-page .shape-main .View-with-diamond-Shape-list-main {
+	width: 100%;
+	overflow-y: auto;
+	display: block;
+	white-space: nowrap;
+	padding-bottom: 10px;
+	position: relative;
+	margin-top: 17px;
+}
+.details-page .shape-main .View-with-diamond-Shape-list-main .shape {
+  display: inline-block;
+  object-fit: inherit;
+  width: 40px;
+  max-width: inherit;
+  background-color: #fff;
+  padding: 3px;
+  margin: 0 5px 0 0;
+  border-radius: 3px;
+  border: 2px solid #fff;
+}
+.details-page .shape-main .View-with-diamond-Shape-list-main .shape img {
+  width: 100%; margin-top: 3px;
+}
+.shape-main .View-with-diamond-Shape-list-main::-webkit-scrollbar-track
+{
+	height: 3px;
+	border-radius: 20px;
+	background-color: #C5BECB;
+}
+.shape-main .View-with-diamond-Shape-list-main::-webkit-scrollbar
+{
+	height: 3px;
+	background-color: #C5BECB;
+}
+
+.shape-main .View-with-diamond-Shape-list-main::-webkit-scrollbar-thumb
+{
+	border-radius: 20px;
+	background-color: #310F4C;
+
+}
+.contact-inner-common svg {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  display: inline-block;
+}
+.cart-info-left a, .cart-info-left .money, .checkout-right-price {
+  font-size: 16px;
+}
+
+.Anniversary.Rings .ShopCategory-img {
+  height: auto;
+  overflow: hidden;
+}
+.Anniversary.Rings .ShopCategory-img img {
+  width: 100%; height: 100%;
+}
+ .video-place-images .default-img>div img {
+  width: 100% !important;
+}
+
+
+.details-videos-images-thumbnail img.iiz__img, 
+.video-place-images .default-img figure img{
+  width: 50% !important; display: inline-block;
+} 
+
+.video-place-images .lazy-load-image-loaded {
+  z-index: -1;
+}
+.footer-all-pages-display .diamond-shape-img .ShopDiamondShape-img-text .own-ring-white {
+	min-height: 90px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.header nav.nav li.wedding-band .engagement-ring {
+  height: fit-content;
+  max-width: 100%;
+  padding: 0 110px;
+}
+
+.header nav.nav .engagement-ring::-webkit-scrollbar {
+  width: 5px;
+  background-color: #fff;
+}
+
+.header nav.nav .engagement-ring::-webkit-scrollbar-thumb {
+  background: #b2b2b2;
+  border-radius: 5px;
+}
+
+.inner-banner-img img {
+  width: 100%;
+  height: 100%;
+}
+.inner-banner-img {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+span.unbold.active {
+  display: none;
+}
+
+.login-inner form .error_1 {
+  margin-bottom: 5px;
+}
+
+
+.singleProduct-text .detail-accordian .ring-info.add-match-band {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
+}
+.singleProduct-text .detail-accordian .ring-info.add-match-band .add-matchring-column {
+  display: block;
+  width: calc(100% / 4 - 8px);
+  margin-bottom: 0;
+}
+.inner-matching-bands {
+  display: flex;
+  flex-direction: column;
+  max-height: inherit;
+  row-gap: 0;
+  position: relative;
+}
+.inner-matching-bands span {
+  display: block;
+  margin: 2px 0 7px;
+  text-align: center;
+}
+.add-matchring-column .add-to-ring-bag a {
+  padding: 10px 8px;
+  display: block;
+  width: 100%;
+  font-size: 12px;
+  max-height: inherit;
+}
+.singleProduct .inner-matching-bands img {
+  width: 100%; border: 1px solid #eaeaea;
+}
+.singleProduct .shape-main span.unbold {
+  font-weight: 700;
+}
+.detail-images-common .default-img div {
+  cursor: pointer;
+}
+.inner-polular-eng.shop-by-color-slider-main {
+  display: block;
+}
+.inner-polular-eng.shop-by-color-slider-main .slick-slide .popular-grid-wrapper {
+  width: 100%;
+}
+.inner-polular-eng.shop-by-color-slider-main .slick-list .slick-track {
+  display: flex;
+  gap: 10px;
+}
+.inner-polular-eng.shop-by-color-slider-main .slick-slide .popular-grid-wrapper .text-icon {
+  text-align: center;
+  margin-top: 10px;
+}
+.best-seller form label {
+  font-size: 12px;
+}
+.main-svg-icon-video {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 0;
+  row-gap: 0;
+}
+.main-svg-icon-video .svg-video {
+  border: 1px solid #ddd;
+  line-height: 0;  width: 100%;
+}
+.main-svg-icon-video .svg-video img {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+.svg-video {
+  display: none;
+}
+.svg-video.active {
+  display: block;
+}
+.singleProduct .all-images .detail-images {
+  width: 75%;
+}
+.singleProduct .all-images .main-svg-icon-video {
+  width: 23%;
+}
+.singleProduct-img .all-images.details-videos .detail-images {
+  width: 100%;
+}
+
+.singleProduct .details-videos video {
+  max-width: 100%;  
+}
+
+
+
+.singleProduct .details-videos video {
+	min-width: 50%;
+	width: 50%;
+	max-width: 50%;
+	border: 0;
+	margin-left: auto;
+	margin-right: auto;
+}
+.details-videos-images-thumbnail figure {
+  text-align: center;
+}
+.details-videos-images-thumbnail {
+  background-color: #fff;
+  border: 1px solid #ddd; min-height: 320px;
+}
+
+.singleProduct-img .all-images.details-videos .detail-images .default-img > div {
+  width: 100%;
+  border: 0;
+}
+.video-place-images .default-img figure img.iiz__zoom-img {
+  width: auto !important;
+}
+.wedding-bands-detail-page .details-videos img.details-video-common.active {
+  width: 50%;
+  display: inline-block;
+}
+.wedding-bands-detail-page .details-videos span.lazy-load-image-background { 
+  z-index: -1;
+}
+.footer-all-pages-display .Accordian-main.our-story-main .container, .BookAnAppointment .container,
+section.ContactUs .container {
+  max-width: 100%; padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+.Diamond-Original-main.Setting-Carat.Variation.center-N\/A {
+  padding-bottom: 0;
+}
+.left-product-images li figure, .left-product-images li figure div {
+  height: auto;
+}
+
+
+.shop-by-page-common .style-main .slick-list, 
+.shop-by-page-common .color-slider .slick-list,
+.shop-by-page-common .shape-main .slick-list {
+  min-height: 135px;
+}
+
+.shop-by-page-common .style-main .slick-slider .slick-arrow,
+.shop-by-page-common .color-slider .slick-slider .slick-arrow,
+.shop-by-page-common .shape-main .slick-slider .slick-arrow {
+  top: 40%;
+}
+
+.right-purchage-icon-content span {
+  font-size: 14px;
+}
+.product-pic a, .product-pic ul {
+  margin: 0;
+}
+.request-help-middle .product-pic {
+  margin-bottom: 5px;
+}
+.cart-info-inner p a {
+  font-size: 12px;
+  line-height: normal;
+}
+.purchage-select-box div svg {
+  width: 22px;
+  height: 22px;
+}
+.sign-in-accout.form-layout .form-search .error_1 {
+  margin-bottom: 1em;
+}
+.shopping-card-main-wrap.empty-bag {
+  text-align: center;
+  padding-top: 10px;
+}
+.checkout-left-des.diamond-name .available-list p {
+  font-size: 14px;
+}
+.checkout-left-des.diamond-name .available-list p span {
+  vertical-align: middle;
+}
+.whishlist-colum .top-whish-list {
+  height: 200px;
+}
+.whishlist-colum .top-whish-list a {
+  height: 100%;
+  display: inline-block; width:100%;
+}
+a.style-active-common.color {
+  display: flex;
+}
+.singleProduct .singleProduct-img .details-videos > span img {
+  width: 90px;
+}
+.product-not-available {
+  font-weight: 600;
+}
+.saved-message label input[type="checkbox"] {
+  margin-right: 5px;
+}
+.saved-message label {
+  font-size: 12px;
+}
+.right-des-order .fore5 {
+  font-weight: bold;
+}
+.cart-info .checkout-right-price, .cart-card-inner .product-info-right p {
+  font-weight: 600;
+}
+.singleProduct .product-not-available {
+  font-size: 14px;
+}
+.singleProduct .product-not-available a {
+  padding-left: 5px;
+  text-decoration: underline;
+}
+.checkout-right .order-summary .cart-left-pic ul.product-list {
+  margin-bottom: 0;
+}
+.success-order .payment-order-details {
+  padding-bottom: 25px;
+}
+.success-order .product-info-inner .product-info-left h2 p {
+  margin-top: 0;
+}
+.best-seller-main .best-seller form > div {
+  font-size: 12px;
+}
+
+.whislist-button-purple .band-not-available a {
+  text-decoration: underline;
+  background: none;
+  color: #fb5353;
+  text-align: left;
+  line-height: 15px;
+}
+
+.whishlist-footer .band-not-available a {
+  color: #fb5353;
+  text-decoration: underline;
+}
+
+.wish-list-tab li.wish-header:empty {
+  display: none;
+}
+
+span#prodcut_price_17566554 {
+  font-weight: 600;
+}
+
+
+.assistance-form form .error_1 {
+  margin-bottom: 1em;
+}
+section.add-matching-wedding-band .love-right-content h4 {
+  text-transform: capitalize;
+}
+
+.sweet-loading svg {
+  width: 150px;
+  height: 150px;
+  margin: 0px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sweet-loading {
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+  z-index: 111111;
+}
+
+.EngagementBridal-img .lazy-load-image-background,
+.EngagementBridal-main .lazy-load-image-background,.ready-ship-banner .Bespoke-banner > div{
+  width: 100% !important;
+  height: 100% !important;
+}
+.EngagementBridal-main .lazy-load-image-background {
+	padding-bottom: 0;
+	line-height: 0;
+}
+.menRings-img .lazy-load-image-background, .Bespoke-banner .lazy-load-image-background,
+.bridalSets-img .lazy-load-image-background {
+  height: 100% !important;
+  width: 100% !important;
+}
+.top-img-name-bar .imgg .lazy-load-image-background, .img-bar .lazy-load-image-background {
+  height: 100% !important;
+  width: 100% !important;
+}
+.singleProduct .singleProduct-img .details-videos > span img.video-poster {
+  width: 50%;
+  display: inline-block;
+}
+.singleProduct .select-custom-size-side > span {
+  width: 150px;
+  justify-content: flex-start;
+}
+.singleProduct .select-custom-size-side > span > div {
+  line-height: 0;
+}
+.singleProduct-text .Engraving input[type="text"] {
+  border: 1px solid #d9d9d9; font-size: 14px;
+}
+.home-page .banner-section .banner-img-slider .lazy-load-image-background img {
+  max-height: 200px;
+}
+.singleProduct .singleProduct-img .details-videos > span.lazy-load-image-background {
+  min-height: 320px;
+}
+.singleProduct-text .Need-More-Time.footer form .email {
+  position: relative;
+}
+.search-icon .search-result-main .search-inner .search-top-content {
+  max-width: 100%;
+  padding: 0;
+  background-color: transparent;
+  box-shadow: none;
+}
+.inner-dimond-data-stucture .prodcut-img iframe {
+  width: 100% !important;
+  height: 238px;
+  object-fit: contain;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  left: 0;
+}
+.inner-dimond-data-stucture .prodcut-img {
+  position: relative;
+}
+.inner-dimond-data-stucture .prodcut-img span > img {
+  height: 238px;
+}
+.inner-dimond-data-stucture .prodcut-img > .lazy-load-image-background {
+	max-width: 100%;
+	margin: 0 auto;
+	display: block !important;
+}
+
+.inner-banner-img span.lazy-load-image-background {
+  width: 100% !important;
+  height: 100% !important;
+}
+.metal-name-item-name.White.metal-value-active #metalValueSpan, .metal-name-item-name.Yellow.metal-value-active #metalValueSpan, .metal-name-item-name.Pink.metal-value-active #metalValueSpan, .metal-name-item-name.Platinum.metal-value-active #metalValueSpan {
+  display: none;
+}
+
+.metal-name-item-name.White.active.metal-value-active #metalValueSpan {
+  display: none;
+}
+.orders-history-dashboard table.orders-history-table tr.active {
+  background-color: #734e90;
+}
+.orders-history-dashboard table.orders-history-table tr.active td {
+  color: #fff;
+}
+.order-history .ring-gemstone-description {
+  border-top: 1px solid #eee;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.footer-all-pages-display > .our-story, .footer-all-pages-display > .mission {
+  padding-bottom: 50px;
+}
+.footer-all-pages-display > .term-of-use,
+.footer-all-pages-display > .privacy-policy {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+
+.main-zoom-iamge span {
+  position: relative;
+  top: 0;
+  z-index: -1;
+}
+.shape-main.View-with-diamond-Shape span.bold > span.unbold.active ,.shape-main.View-with-diamond-Shape span.bold.active-main-hover span.unbold.hover-active
+{
+  display: block;
+}
+.shape-main.View-with-diamond-Shape span.bold.active-main-hover span.unbold.active{
+  display: none !important;
+}
+.order-history > h3 {
+  font-size: 20px;
+  line-height: normal;
+}
+
+.main-head-title {
+  font-family: "Sackers Gothic Light AT";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 138%;
+  text-transform: capitalize;
+
+}
+.other-payment-button {
+  padding: 15px;
+  background-color: #fff;
+  width: 100%;
+  border-radius: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top:15px;
+}
+.other-payment-button > div {
+  width: calc(100% / 2 - 5px);
+}
+.other-payment-button .google-pay-button-container button {
+  width: 100%;
+  height: 34px; 
+  min-width: 100%;
+  min-height: 34px;
+}
+.order-history-main-dashboard .shop-images .product-list li img {
+  height: 100%;
+}
+.mobile-filters .lazy-load-image-background {
+  height: 100% !important;
+  width: 100% !important;
+}
+.filter-button .lazy-load-image-background {
+  height: 100%  !important;
+  width: 100% !important;
+}
+
+
+
+
+
+
+.close-form svg {
+  position: absolute;
+  top: 12px;
+  z-index: 1111;
+  background: #fff;
+  font-size: 25px;
+  color: #310f4d;
+  right: 25%;
+}
+
+
+.detail-accordian .item .content-show {
+  cursor: auto;
+}
+
+
+.customization-form h1.center {
+  padding-bottom: 15px;
+}
+.ftr-contact-form div#ftrMobId{
+  display: none;
+}
+.ftr-contact-form div#ftrId,  .Need-More-Time-details #commonId{
+  display: block;
+}
+.customization-form, div#request-ring-sizer {
+  text-align: center;
+  max-width: 70%;
+  margin: 0 auto;
+  padding: 30px 0 60px;
+}
+.customization-form > img {
+  max-width: 110px;
+}
+.customization-form div#customizationForm {
+  padding-top: 30px;
+}
+
+.product-pic a {
+  width: fit-content;
+  display: inline-block;
+}
+
+.metal-name-item-name span#metalValueSpan {
+  margin-right: 4px;
+}
+.checkboxes h3 {
+  margin-bottom: 15px;
+}
+
+.final-ring figure.iiz img.iiz__img {
+  min-height: 350px;
+}
+.product-right-price {
+  text-align: right;
+}
+
+.filter-ss-column span {
+  cursor: pointer;
+  text-transform: capitalize;
+}
+
+.bag-icon .product-info-inner {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.wedding-bands-detail-page span.details-video-common.active img.iiz__img {
+  width: 50%;
+  margin: 0 auto;
+}
+.search-product-list-parent {
+  margin-top: 10px;
+}
+.cart-card-inner.inner-diamond {
+  border: none;
+}
+
+.cart-info-left .money{
+  font-size: 12px;
+}
+.shoping-car-page button{
+  display: inline-block;
+  cursor: pointer;
+  border: none;
+  text-decoration: underline;
+  
+}
+.add-form-gift-checkout button{
+  display: contents;
+}
+.card-right-side .order-box .detail-content-list-checkout li:first-child span {
+  font-weight: 800;
+}
+.choose-your-impact-main .choose-your-impact {
+  width: calc(100%/4 - 20px);
+  text-align: center;
+  height: 50px;
+  border: 2px solid #734e90;
+  margin: 15px 0px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.choose-your-impact-main .active.choose-your-impact {
+  background: #734e90;
+  
+}
+.choose-your-impact-main .choose-your-impact svg {
+  width: 50px;
+  height: 50px;
+  padding: 5px;
+  text-align: center;
+}
+.choose-your-impact-main {
+  background: #fff;
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 5px;
+  min-height: 350px;
+}
+.choose-your-impact-main .protect-content{
+  justify-content: space-between;
+}
+.choose-your-impact-main .all-impact-data p > span {
+  font-weight: 600;
+  display: block;
+  font-size: 15px;
+}
+.choose-your-impact-main .all-impact-data {
+  border: 2px solid #ddd;
+  padding: 15px;
+  border-radius: 5px;
+}
+.checkout-left .shipngOverNight {
+  background: #f6f6f6;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #310f4c;
+}
+.care-faq-page h5 {
+  color: #000;
+  font-family: Sackers Gothic Light AT;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  margin: 10px 0;
+}
+.checkout-info .two-fields .inputs option {
+  text-transform: capitalize;
+}
+
+.lab-grown-diamonds-main h4 {
+  font-size: 20px;
+}
