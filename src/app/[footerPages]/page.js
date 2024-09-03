@@ -1,11 +1,20 @@
-// app/contact/page.tsx (or .js)
+// app/[footerPages]/page.tsx
 
-import ContactUs from "./fetchFooter";
+import ContactUs from "../fetchFooter"; // Adjust the path as needed
 
-// Fetch data at build time
-export async function generateStaticProps() {
+// Fetch data for static paths
+export async function generateStaticParams() {
   const posts = await fetchFooterData();
-  return { props: { posts } };
+  
+  // Generate paths based on fetched data
+  const paths = posts.map(post => ({
+    params: { footerPages: post.id } // Adjust according to your actual data structure
+  }));
+
+  return {
+    paths,
+    fallback: false // or true/‘blocking’ if you need fallback behavior
+  };
 }
 
 // Function to fetch footer data
@@ -26,8 +35,18 @@ const fetchFooterData = async () => {
 };
 
 // Page Component
-const ContactPage = async () => {
-  const posts = await fetchFooterData();
+const ContactPage = ({ params }) => {
+  const [posts, setPosts] = React.useState([]);
+  
+  React.useEffect(() => {
+    // Fetch data on client side as `generateStaticParams` is for build time
+    const fetchData = async () => {
+      const data = await fetchFooterData();
+      setPosts(data);
+    };
+    fetchData();
+  }, []);
+
   return (
     <div>
       <ContactUs posts={posts} />
